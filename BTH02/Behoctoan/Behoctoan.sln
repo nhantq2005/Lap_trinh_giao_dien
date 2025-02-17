@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behoctoan", "Behoctoan.csproj", "{1A3E40AD-2900-4D0B-96BE-7995FD6EC600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3E40AD-2900-4D0B-96BE-7995FD6EC600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3E40AD-2900-4D0B-96BE-7995FD6EC600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3E40AD-2900-4D0B-96BE-7995FD6EC600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3E40AD-2900-4D0B-96BE-7995FD6EC600}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEB1B833-251A-4D4D-BDF9-1DEA9222D08C}
+	EndGlobalSection
+EndGlobal

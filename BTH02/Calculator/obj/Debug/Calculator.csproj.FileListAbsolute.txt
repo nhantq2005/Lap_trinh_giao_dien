@@ -1,0 +1,10 @@
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\bin\Debug\Calculator.exe.config
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\bin\Debug\Calculator.exe
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\bin\Debug\Calculator.pdb
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.Form1.resources
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.exe
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Calculator\obj\Debug\Calculator.pdb
