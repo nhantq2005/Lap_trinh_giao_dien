@@ -34,14 +34,15 @@
             this.input2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.plusRB = new System.Windows.Forms.RadioButton();
-            this.divRB = new System.Windows.Forms.RadioButton();
-            this.modRB = new System.Windows.Forms.RadioButton();
-            this.timesRB = new System.Windows.Forms.RadioButton();
             this.minusRB = new System.Windows.Forms.RadioButton();
+            this.timesRB = new System.Windows.Forms.RadioButton();
+            this.modRB = new System.Windows.Forms.RadioButton();
+            this.divRB = new System.Windows.Forms.RadioButton();
+            this.plusRB = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.TextBox();
             this.calcBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,7 +106,7 @@
             this.groupBox1.Controls.Add(this.divRB);
             this.groupBox1.Controls.Add(this.plusRB);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(235, 195);
+            this.groupBox1.Location = new System.Drawing.Point(302, 246);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -114,38 +115,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn phép toán";
             // 
-            // plusRB
+            // minusRB
             // 
-            this.plusRB.AutoSize = true;
-            this.plusRB.Location = new System.Drawing.Point(29, 64);
-            this.plusRB.Name = "plusRB";
-            this.plusRB.Size = new System.Drawing.Size(51, 36);
-            this.plusRB.TabIndex = 0;
-            this.plusRB.TabStop = true;
-            this.plusRB.Text = "+";
-            this.plusRB.UseVisualStyleBackColor = true;
-            // 
-            // divRB
-            // 
-            this.divRB.AutoSize = true;
-            this.divRB.Location = new System.Drawing.Point(345, 64);
-            this.divRB.Name = "divRB";
-            this.divRB.Size = new System.Drawing.Size(43, 36);
-            this.divRB.TabIndex = 1;
-            this.divRB.TabStop = true;
-            this.divRB.Text = "/";
-            this.divRB.UseVisualStyleBackColor = true;
-            // 
-            // modRB
-            // 
-            this.modRB.AutoSize = true;
-            this.modRB.Location = new System.Drawing.Point(461, 64);
-            this.modRB.Name = "modRB";
-            this.modRB.Size = new System.Drawing.Size(60, 36);
-            this.modRB.TabIndex = 2;
-            this.modRB.TabStop = true;
-            this.modRB.Text = "%";
-            this.modRB.UseVisualStyleBackColor = true;
+            this.minusRB.AutoSize = true;
+            this.minusRB.Location = new System.Drawing.Point(138, 64);
+            this.minusRB.Name = "minusRB";
+            this.minusRB.Size = new System.Drawing.Size(44, 36);
+            this.minusRB.TabIndex = 4;
+            this.minusRB.TabStop = true;
+            this.minusRB.Text = "-";
+            this.minusRB.UseVisualStyleBackColor = true;
             // 
             // timesRB
             // 
@@ -158,16 +137,38 @@
             this.timesRB.Text = "*";
             this.timesRB.UseVisualStyleBackColor = true;
             // 
-            // minusRB
+            // modRB
             // 
-            this.minusRB.AutoSize = true;
-            this.minusRB.Location = new System.Drawing.Point(138, 64);
-            this.minusRB.Name = "minusRB";
-            this.minusRB.Size = new System.Drawing.Size(44, 36);
-            this.minusRB.TabIndex = 4;
-            this.minusRB.TabStop = true;
-            this.minusRB.Text = "-";
-            this.minusRB.UseVisualStyleBackColor = true;
+            this.modRB.AutoSize = true;
+            this.modRB.Location = new System.Drawing.Point(461, 64);
+            this.modRB.Name = "modRB";
+            this.modRB.Size = new System.Drawing.Size(60, 36);
+            this.modRB.TabIndex = 2;
+            this.modRB.TabStop = true;
+            this.modRB.Text = "%";
+            this.modRB.UseVisualStyleBackColor = true;
+            // 
+            // divRB
+            // 
+            this.divRB.AutoSize = true;
+            this.divRB.Location = new System.Drawing.Point(345, 64);
+            this.divRB.Name = "divRB";
+            this.divRB.Size = new System.Drawing.Size(43, 36);
+            this.divRB.TabIndex = 1;
+            this.divRB.TabStop = true;
+            this.divRB.Text = "/";
+            this.divRB.UseVisualStyleBackColor = true;
+            // 
+            // plusRB
+            // 
+            this.plusRB.AutoSize = true;
+            this.plusRB.Location = new System.Drawing.Point(29, 64);
+            this.plusRB.Name = "plusRB";
+            this.plusRB.Size = new System.Drawing.Size(51, 36);
+            this.plusRB.TabIndex = 0;
+            this.plusRB.TabStop = true;
+            this.plusRB.Text = "+";
+            this.plusRB.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -200,12 +201,24 @@
             this.calcBtn.UseVisualStyleBackColor = true;
             this.calcBtn.Click += new System.EventHandler(this.calcBtn_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(938, 489);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 46);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Đóng";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1161, 684);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.calcBtn);
             this.Controls.Add(this.output);
             this.Controls.Add(this.label4);
@@ -219,6 +232,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -242,6 +256,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox output;
         private System.Windows.Forms.Button calcBtn;
+        private System.Windows.Forms.Button button1;
     }
 }
 

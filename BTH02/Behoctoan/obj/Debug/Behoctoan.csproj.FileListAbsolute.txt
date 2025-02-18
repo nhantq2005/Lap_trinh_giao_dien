@@ -1,0 +1,10 @@
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\bin\Debug\Behoctoan.exe.config
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\bin\Debug\Behoctoan.exe
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\bin\Debug\Behoctoan.pdb
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.csproj.AssemblyReference.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.Form1.resources
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.Properties.Resources.resources
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.csproj.GenerateResource.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.csproj.CoreCompileInputs.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.exe
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.pdb

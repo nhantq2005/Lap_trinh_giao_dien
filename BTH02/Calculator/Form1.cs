@@ -45,35 +45,29 @@ namespace Calculator
             return"";
         }
 
-        public string Cong()
+        public int Cong()
         {
-            return (this.n1+this.n2).ToString();
+            return checked(this.n1+this.n2);
         }
 
-        public string Tru()
+        public int Tru()
         {
-            return (this.n1 - this.n2).ToString();
+            return checked(this.n1 - this.n2);
         }
-        public string Nhan()
+        public int Nhan()
         {
-            return (this.n1 * this.n2).ToString();
+            return checked(this.n1 * this.n2);
         }
-        public string Chia()
+        public double Chia()
         {
-            if (this.n2 == 0)
-            {
-                return "Số chia phải khác 0";
-            }
-            return Math.Round((double)this.n1 / this.n2,2).ToString();
+            if (n2 == 0)
+                throw new DivideByZeroException();
+            return Math.Round((double)this.n1 / this.n2,2);
         }
 
-        public string ChiaDu()
+        public int ChiaDu()
         {
-            if (this.n2 == 0)
-            {
-                return "Số chia phải khác 0";
-            }
-            return (this.n1 % this.n2).ToString();
+            return checked(this.n1 % this.n2);
         }
     }
     public partial class Form1 : Form
@@ -88,38 +82,57 @@ namespace Calculator
             try
             {
                 PhepTinh pt = new PhepTinh(int.Parse(input1.Text), int.Parse(input2.Text));
-                if (pt.KiemTra() != "")
-                {
-                    output.Text = pt.KiemTra();
-                }
-                else
-                {
+                //if (pt.KiemTra() != "")
+                //{
+                //    output.Text = pt.KiemTra();
+                //}
+                //else
+                //{
                     if (plusRB.Checked)
                     {
-                        output.Text = pt.Cong();
+                        output.Text = pt.Cong().ToString();
                     }
                     else if (minusRB.Checked)
                     {
-                        output.Text = pt.Tru();
+                        output.Text = pt.Tru().ToString();
                     }
                     else if (timesRB.Checked)
                     {
-                        output.Text = pt.Nhan();
+                        output.Text = pt.Nhan().ToString();
                     }
                     else if (divRB.Checked)
                     {
-                        output.Text = pt.Chia();
+                        output.Text = pt.Chia().ToString();
                     }
                     else
                     {
-                        output.Text = pt.ChiaDu();
+                        output.Text = pt.ChiaDu().ToString();
                     }
-                }
+                //}
             }catch(FormatException)
             {
                 output.Text = "Bạn phải nhập 2 số";
+            }catch(OverflowException)
+            {
+                output.Text = "Không thể xử lý số quá lớn";
+            }catch(DivideByZeroException)
+            {
+                output.Text = "Số chia phải khác 0";
             }
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(MessageBox.Show("Bạn muốn đóng?","Xác nhận",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No) {
+                e.Cancel = true;
+            }
         }
     }
 }
