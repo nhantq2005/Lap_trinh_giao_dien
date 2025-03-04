@@ -10,11 +10,16 @@ namespace BAI_01
     {
         public static int UCLN(int x, int y)
         {
-
                 x = Math.Abs(x);
                 y = Math.Abs(y);
                 if (y == 0) return x;
                 return UCLN(y, x % y);
+        }
+
+        public static int ChonSo(int min, int max)
+        {
+            Random rnd = new Random();
+            return rnd.Next(min, max + 1);
         }
     }
 }

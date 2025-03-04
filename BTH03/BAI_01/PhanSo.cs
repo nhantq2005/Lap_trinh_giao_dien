@@ -40,6 +40,24 @@ namespace BAI_01
                 mauso /= us;
             }
         }
+
+        public string KiemTra(PhanSo p)
+        {
+            if (p.tuso == this.tuso && p.mauso == this.mauso)
+            {
+                return "Chính xác";
+            }
+            return "Sai rồi!";
+        }
+
+        public void SinhPS()
+        {
+            Random rnd = new Random();
+            this.tuso = rnd.Next(0,10);
+            rnd.Next(0, 10);
+            this.mauso = rnd.Next(1, 10);
+        }
+
         public PhanSo Cong(PhanSo p)
         {
             PhanSo kq = new PhanSo();

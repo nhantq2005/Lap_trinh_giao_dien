@@ -8,3 +8,12 @@ D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.csproj.GenerateR
 D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.csproj.CoreCompileInputs.cache
 D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.exe
 D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.pdb
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\bin\Debug\BAI_01.exe.config
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\obj\Debug\BAI_01.exe
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\obj\Debug\BAI_01.pdb
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\bin\Debug\BAI_01.exe
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\bin\Debug\BAI_01.pdb
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\obj\Debug\BAI_01.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\obj\Debug\BAI_01.Form1.resources
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\obj\Debug\BAI_01.Properties.Resources.resources
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH03\BAI_01\obj\Debug\BAI_01.csproj.GenerateResource.Cache

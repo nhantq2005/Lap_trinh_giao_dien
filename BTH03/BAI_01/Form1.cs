@@ -17,54 +17,59 @@ namespace BAI_01
         public Form1()
         {
             InitializeComponent();
+            //Tao phan so lan dau chay
+            p1.SinhPS();
+            p2.SinhPS();
+            //Hien thi 2 phan so
+            ts1.Text = p1.Tuso.ToString();
+            ms1.Text = p1.Mauso.ToString();
+            ts2.Text = p2.Tuso.ToString();
+            ms2.Text = p2.Mauso.ToString();
         }
 
         private void congBtn_Click(object sender, EventArgs e)
         {
-            p1.Tuso = int.Parse(ts1.Text);
-            p1.Mauso = int.Parse(ms1.Text);
-            p2.Tuso = int.Parse(ts2.Text);
-            p2.Mauso = int.Parse(ms2.Text);
+            phepTinh.Text = "+";;
+            PhanSo dapAn = new PhanSo(p1.Cong(p2).Tuso, p1.Cong(p2).Mauso);
+            PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
+            hienThiDA.Text=psKQ.KiemTra(dapAn);
 
-            phepTinh.Text = "+";
-            tsKQ.Text = p1.Cong(p2).Tuso.ToString();
-            msKQ.Text = p1.Cong(p2).Mauso.ToString();
         }
 
         private void truBtn_Click(object sender, EventArgs e)
         {
-            p1.Tuso = int.Parse(ts1.Text);
-            p1.Mauso = int.Parse(ms1.Text);
-            p2.Tuso = int.Parse(ts2.Text);
-            p2.Mauso = int.Parse(ms2.Text);
-
-            phepTinh.Text = "-";
-            tsKQ.Text = p1.Tru(p2).Tuso.ToString();
-            msKQ.Text = p1.Tru(p2).Mauso.ToString();
+            phepTinh.Text = "+"; ;
+            PhanSo dapAn = new PhanSo(p1.Tru(p2).Tuso, p1.Tru(p2).Mauso);
+            PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
+            hienThiDA.Text = psKQ.KiemTra(dapAn);
         }
 
         private void nhanBtn_Click(object sender, EventArgs e)
         {
-            p1.Tuso = int.Parse(ts1.Text);
-            p1.Mauso = int.Parse(ms1.Text);
-            p2.Tuso = int.Parse(ts2.Text);
-            p2.Mauso = int.Parse(ms2.Text);
-
-            phepTinh.Text = "*";
-            tsKQ.Text = p1.Nhan(p2).Tuso.ToString();
-            msKQ.Text = p1.Nhan(p2).Mauso.ToString();
+            phepTinh.Text = "+"; ;
+            PhanSo dapAn = new PhanSo(p1.Nhan(p2).Tuso, p1.Nhan(p2).Mauso);
+            PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
+            hienThiDA.Text = psKQ.KiemTra(dapAn);
         }
 
         private void chiaBtn_Click(object sender, EventArgs e)
         {
-            p1.Tuso = int.Parse(ts1.Text);
-            p1.Mauso = int.Parse(ms1.Text);
-            p2.Tuso = int.Parse(ts2.Text);
-            p2.Mauso = int.Parse(ms2.Text);
+            phepTinh.Text = "+"; ;
+            PhanSo dapAn = new PhanSo(p1.Chia(p2).Tuso, p1.Chia(p2).Mauso);
+            PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
+            hienThiDA.Text = psKQ.KiemTra(dapAn);
+        }
 
-            phepTinh.Text = "/";
-            tsKQ.Text = p1.Chia(p2).Tuso.ToString();
-            msKQ.Text = p1.Chia(p2).Mauso.ToString();
+        private void continueBtn_Click(object sender, EventArgs e)
+        {
+            //Tao phan so moi
+            p1.SinhPS();
+            p2.SinhPS();
+            //Hien thi 2 phan so
+            ts1.Text = p1.Tuso.ToString();
+            ms1.Text = p1.Mauso.ToString();
+            ts2.Text = p2.Tuso.ToString();
+            ms2.Text = p2.Mauso.ToString();
         }
     }
 }
