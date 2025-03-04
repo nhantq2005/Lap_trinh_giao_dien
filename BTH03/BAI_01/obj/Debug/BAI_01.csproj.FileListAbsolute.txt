@@ -1,0 +1,10 @@
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\bin\Debug\BAI_01.exe.config
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\bin\Debug\BAI_01.exe
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\bin\Debug\BAI_01.pdb
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.csproj.AssemblyReference.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.Form1.resources
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.Properties.Resources.resources
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.csproj.GenerateResource.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.csproj.CoreCompileInputs.cache
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.exe
+D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH03\BAI_01\obj\Debug\BAI_01.pdb
