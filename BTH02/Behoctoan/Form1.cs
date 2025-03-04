@@ -144,54 +144,10 @@ namespace Behoctoan
 
         }
 
-        private void btn1_Click(object sender, EventArgs e)
-        {
-            input.Text += btn1.Text;
-        }
-
-        private void btn2_Click(object sender, EventArgs e)
-        {
-            input.Text += btn2.Text;
-        }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-            input.Text += btn3.Text;
-        }
-
-        private void btn4_Click(object sender, EventArgs e)
-        {
-            input.Text += btn4.Text;
-        }
-
-        private void btn5_Click(object sender, EventArgs e)
-        {
-            input.Text += btn5.Text;
-        }
-
-        private void btn6_Click(object sender, EventArgs e)
-        {
-            input.Text += btn6.Text;
-        }
-
-        private void btn7_Click(object sender, EventArgs e)
-        {
-            input.Text += btn7.Text;
-        }
-
-        private void btn8_Click(object sender, EventArgs e)
-        {
-            input.Text += btn8.Text;
-        }
-
-        private void btn9_Click(object sender, EventArgs e)
-        {
-            input.Text += btn9.Text;
-        }
-
         private void btn0_Click(object sender, EventArgs e)
         {
-            input.Text += btn0.Text;
+            Button btn = (Button)sender;
+            input.Text += btn.Text;
         }
 
         private void btnDau_Click(object sender, EventArgs e)

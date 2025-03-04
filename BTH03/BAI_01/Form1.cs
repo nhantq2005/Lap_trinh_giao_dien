@@ -38,7 +38,7 @@ namespace BAI_01
 
         private void truBtn_Click(object sender, EventArgs e)
         {
-            phepTinh.Text = "+"; ;
+            phepTinh.Text = "-"; ;
             PhanSo dapAn = new PhanSo(p1.Tru(p2).Tuso, p1.Tru(p2).Mauso);
             PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
             hienThiDA.Text = psKQ.KiemTra(dapAn);
@@ -46,7 +46,7 @@ namespace BAI_01
 
         private void nhanBtn_Click(object sender, EventArgs e)
         {
-            phepTinh.Text = "+"; ;
+            phepTinh.Text = "*"; ;
             PhanSo dapAn = new PhanSo(p1.Nhan(p2).Tuso, p1.Nhan(p2).Mauso);
             PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
             hienThiDA.Text = psKQ.KiemTra(dapAn);
@@ -54,7 +54,7 @@ namespace BAI_01
 
         private void chiaBtn_Click(object sender, EventArgs e)
         {
-            phepTinh.Text = "+"; ;
+            phepTinh.Text = "/"; ;
             PhanSo dapAn = new PhanSo(p1.Chia(p2).Tuso, p1.Chia(p2).Mauso);
             PhanSo psKQ = new PhanSo(int.Parse(tsKQ.Text), int.Parse(msKQ.Text));
             hienThiDA.Text = psKQ.KiemTra(dapAn);

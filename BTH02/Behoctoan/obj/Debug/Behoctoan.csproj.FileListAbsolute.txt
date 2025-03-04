@@ -8,3 +8,12 @@ D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.csproj.Gen
 D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.csproj.CoreCompileInputs.cache
 D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.exe
 D:\C_SHARP_PROJECT\Thuc_hanh_LTGD\BTH02\Behoctoan\obj\Debug\Behoctoan.pdb
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\bin\Debug\Behoctoan.exe.config
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\obj\Debug\Behoctoan.exe
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\obj\Debug\Behoctoan.pdb
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\obj\Debug\Behoctoan.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\obj\Debug\Behoctoan.Form1.resources
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\obj\Debug\Behoctoan.Properties.Resources.resources
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\obj\Debug\Behoctoan.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\bin\Debug\Behoctoan.exe
+C:\Users\admin\Desktop\Lap_trinh_giao_dien\BTH02\Behoctoan\bin\Debug\Behoctoan.pdb
