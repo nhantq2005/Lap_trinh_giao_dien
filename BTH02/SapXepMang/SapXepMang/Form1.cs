@@ -75,7 +75,7 @@ namespace SapXepMang
             revArr.Text = String.Join(",", a.ToArray());
             this.oddEven();
             List<int> subEvenList = a.GetRange(0,mid);
-            List<int> subOddList = a.GetRange(mid+1,a.Count-1);
+            List<int> subOddList = a.GetRange(mid+1,a.Count-2);
             subEvenList.Sort();
             subOddList.Sort();
             subOddList.Reverse();

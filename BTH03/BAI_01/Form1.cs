@@ -14,12 +14,15 @@ namespace BAI_01
     {
         PhanSo p1 = new PhanSo();
         PhanSo p2 = new PhanSo();
+        Random rnd = new Random();
         public Form1()
         {
             InitializeComponent();
             //Tao phan so lan dau chay
-            p1.SinhPS();
-            p2.SinhPS();
+            p1.Tuso = rnd.Next(10);
+            p1.Mauso = rnd.Next(1,10);
+            p2.Tuso = rnd.Next(10);
+            p2.Mauso = rnd.Next(1,10);
             //Hien thi 2 phan so
             ts1.Text = p1.Tuso.ToString();
             ms1.Text = p1.Mauso.ToString();
@@ -63,8 +66,10 @@ namespace BAI_01
         private void continueBtn_Click(object sender, EventArgs e)
         {
             //Tao phan so moi
-            p1.SinhPS();
-            p2.SinhPS();
+            p1.Tuso = rnd.Next(10);
+            p1.Mauso = rnd.Next(1, 10);
+            p2.Tuso = rnd.Next(10);
+            p2.Mauso = rnd.Next(1, 10);
             //Hien thi 2 phan so
             ts1.Text = p1.Tuso.ToString();
             ms1.Text = p1.Mauso.ToString();

@@ -9,6 +9,7 @@ namespace BAI_01
     internal class PhanSo
     {
         int tuso, mauso;
+        Random rnd = new Random();
         public PhanSo()
         {
             tuso = 0;
@@ -50,13 +51,11 @@ namespace BAI_01
             return "Sai rồi!";
         }
 
-        public void SinhPS()
-        {
-            Random rnd = new Random();
-            this.tuso = rnd.Next(0,10);
-            rnd.Next(0, 10);
-            this.mauso = rnd.Next(1, 10);
-        }
+        //public void SinhPS()
+        //{
+        //    this.tuso = rnd.Next(0,10);
+        //    this.mauso = rnd.Next(1, 10);
+        //}
 
         public PhanSo Cong(PhanSo p)
         {
