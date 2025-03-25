@@ -12,9 +12,28 @@ namespace QuanLyNhanVien
 {
     public partial class frmLogin : Form
     {
+        QuanLy ql = new QuanLy();
         public frmLogin()
         {
             InitializeComponent();
+        }
+
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            if (ql.xacThuc(userNametxt.Text, passwordtxt.Text))
+            {
+                this.Close();
+            }
         }
     }
 }

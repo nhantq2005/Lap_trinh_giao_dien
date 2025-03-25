@@ -14,7 +14,12 @@ namespace QuanLyNhanVien
     {
         public frmMain()
         {
+
+            frmLogin frmLogin = new frmLogin();
+            frmLogin.ShowDialog(); 
             InitializeComponent();
         }
+
+
     }
 }
