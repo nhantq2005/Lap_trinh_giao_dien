@@ -15,6 +15,8 @@ namespace XuLyChuoi
         string s = "khoa  Công nGhệ thông tiN,  Trường Đại học mở tp Hồ chí Minh";
         public Form1()
         {
+            Demo d = new Demo();
+            d.ShowDialog();
             InitializeComponent();
             s1.Text = s;
         }

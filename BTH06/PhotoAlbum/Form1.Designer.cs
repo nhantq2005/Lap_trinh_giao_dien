@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.treeFolder = new System.Windows.Forms.TreeView();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.Img = new System.Windows.Forms.PictureBox();
             this.listImg = new System.Windows.Forms.FlowLayoutPanel();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Img)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,8 +49,18 @@
             this.treeFolder.SelectedImageIndex = 0;
             this.treeFolder.Size = new System.Drawing.Size(229, 451);
             this.treeFolder.TabIndex = 0;
-            this.treeFolder.BeforeCollapse += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeFolder_BeforeCollapse);
+            //this.treeFolder.BeforeCollapse += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeFolder_BeforeCollapse);
+            this.treeFolder.AfterCollapse += new System.Windows.Forms.TreeViewEventHandler(this.treeFolder_AfterCollapse);
             this.treeFolder.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeFolder_BeforeExpand);
+            this.treeFolder.AfterExpand += new System.Windows.Forms.TreeViewEventHandler(this.treeFolder_AfterExpand);
+            this.treeFolder.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeFolder_AfterSelect);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "folder.png");
+            this.imageList1.Images.SetKeyName(1, "open-folder.png");
             // 
             // Img
             // 
@@ -61,6 +71,7 @@
             this.Img.Location = new System.Drawing.Point(237, -1);
             this.Img.Name = "Img";
             this.Img.Size = new System.Drawing.Size(562, 326);
+            this.Img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Img.TabIndex = 1;
             this.Img.TabStop = false;
             // 
@@ -68,18 +79,12 @@
             // 
             this.listImg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.listImg.AutoScroll = true;
             this.listImg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.listImg.Location = new System.Drawing.Point(237, 331);
             this.listImg.Name = "listImg";
             this.listImg.Size = new System.Drawing.Size(562, 119);
             this.listImg.TabIndex = 2;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "folder.png");
-            this.imageList1.Images.SetKeyName(1, "open-folder.png");
             // 
             // Form1
             // 
